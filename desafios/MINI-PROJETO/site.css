@@ -1,0 +1,295 @@
+@charset "UTF-8";
+
+
+header {
+    background-image: linear-gradient(to top, #063d1e, #2fa866);
+    color: white;
+    font-family: 'Bebas-Neue', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    min-height: 150px;
+    padding-top: 40px;
+    
+    
+    
+}
+
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-weight: lighter;
+    font-size: 50px;
+    text-shadow: 1px 1px 3px black;
+    
+
+    
+}
+
+.paragrafoheader {
+    font-size: 1em;
+    color: white;
+    max-width: 600px;
+    margin: auto;
+    padding-bottom: 50px;
+    padding: 10px;
+    padding-right: 10px;
+}
+
+nav {
+    background-color: #063d1e;
+    padding: 10px;
+}
+
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #3ddc84;
+    font-weight: bold;
+}
+
+.home {
+    padding: 10px;
+}
+
+a:hover {
+    background-color: #3ddc84;
+    color: #063d1e;
+}
+
+.noticias {
+    padding: 10px;
+}
+
+.contato {
+    padding: 10px;
+}
+
+
+
+body {
+    margin: auto;
+    background-color: #ebe5c5;
+    min-width: 150px;
+    display: block;
+    
+    
+    
+}
+
+main {
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+    background-color: white;
+    margin: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+    min-width: 300px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+    
+    
+
+
+}
+
+
+
+
+
+
+
+.titulo2 {
+    font-family: 'idroid';
+    font-size: 30px;
+    color: #063d1e;
+    text-shadow: none;
+    font-weight: lighter;
+    
+    
+}
+
+.p1main
+ {
+    
+    line-height: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    text-indent: 30px;
+    
+}
+
+.p2main {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    line-height: 25px;
+    text-indent: 30px;
+    
+}
+
+.p3main {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    line-height: 25px;
+    text-indent: 30px;
+}
+
+.p4main {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    line-height: 25px;
+    text-indent: 30px;
+}
+
+.p5main {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    line-height: 25px;
+    text-indent: 30px;
+}
+
+.p6main {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    line-height: 25px;
+    text-indent: 30px;
+}
+
+.h2versao {
+    background-image: linear-gradient(to right, #3ddc84, white);
+    font-family: 'idroid';
+    color: #063d1e  ;
+    font-size: 1.2em;
+    text-shadow: none;
+    font-weight: lighter;
+}
+
+.h2mascote {
+    background-image: linear-gradient(to right, #3ddc84, white);
+    font-family: 'idroid';
+    color: #063d1e  ;
+    font-size: 1.2em;
+    text-shadow: none;
+    font-weight: lighter;
+
+}
+
+
+
+.linkDan {
+    color: #063d1e;
+    background-color: #7bffb7
+}
+
+.linkInk {
+    color: #063d1e;
+    background-color: #7bffb7
+}
+
+.linkIrina {
+    color: #063d1e;
+    background-color: #7bffb7
+}
+
+.linkAndroid {
+    color: #063d1e;
+    
+}
+
+#youtube {
+    text-align: center;
+    max-width: auto;
+    border: 10px;
+    background-color: #063d1e;
+    margin-left: -16px;
+    margin-right: -16px;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    
+    
+    
+}
+    
+.droidsimg {
+    width: 100%;
+}
+
+.irinaimg {
+    width: 100%;
+}
+
+.bugdroidimg {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+
+aside {
+    border-radius: 10px;
+    background-color: #6ae2a0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    text-indent: 30px;
+    box-shadow: 1px 1px 10px black;
+    
+
+    
+    
+}
+
+.paside {
+    background-color: #074723;
+    color: white;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px 5px 10px 5px;
+    margin-left: -5px;
+    margin-right: -5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    line-height: 25px;
+}
+
+
+
+.lista1 {
+    display: inline-block;
+    
+}
+ 
+
+
+.lista2 {
+    display: inline-block;
+    margin-left: 200px;
+    
+
+}
+
+aside > p {
+    line-height: 25px;
+}
+
+.pfooter {
+    text-align: justify;
+    font-size: 14px;
+    padding-bottom: 30px;
+    text-indent: 30px;
+}
+
+footer {
+    text-align: center;
+    background-color: #063d1e;
+    color: white;
+    height: 1.2em;
+    
+    
+}

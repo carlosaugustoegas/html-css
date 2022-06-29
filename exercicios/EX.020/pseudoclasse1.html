@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="pt-br">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes e Pseudo-elementos</title>
+    <style>
+        body {
+            font: normal 2em Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-decoration: none;
+            color: brown;
+        }
+
+        
+
+        a:visited {
+            color: rgb(90, 22, 22);
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: yellow;
+        }
+
+        .instagram:hover {
+            color: rgb(233, 27, 205);
+            background-color: rgb(114, 0, 99);
+            text-decoration: none;
+            
+        }
+
+        .twitch:hover {
+            color: white;
+            background-color: blueviolet;
+            text-decoration: none;
+        }
+
+        .twitch::before {
+            content: '¦';
+            font-weight: lighter;
+        }
+
+        .twitch::after {
+            content: '¦';
+            font-weight: lighter;
+        }
+
+        .twitter:hover {
+            color: rgb(0, 153, 255);
+            background-color: whitesmoke;
+            text-decoration: none;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando um link</h1>
+    <p>
+        Para seguir o meu Twitter, acesse o 
+        <a href="https://twitter.com/gutAoAllin" class="twitter">Twitter</a>
+    </p>
+    <p>
+        Se  quiser conhecer o meu canal da Twitch, visite o site <a href="https://www.twitch.tv/gutaoallin" class="twitch">Twitch</a>
+    </p>
+    <p>Para acompanhar meu Instagram, acesse <a href="https://www.instagram.com/gutoegas/" class="instagram">Instagram</a></p>
+
+</body>
+</html>

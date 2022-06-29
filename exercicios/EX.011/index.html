@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <picture>
+        <source media="(max-width: 750px)"srcset="imagens/reidecopas300.png" type="image/png">
+        <source media="(max-width: 1050px)"srcset="imagens/reidecopas700.png" type="image/png">
+        <img src="imagens/reidecopas1000.png" alt="A imagem flexivel funciona">
+    </picture>
+    
+    <h1>Reproduzindo áudios</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5</p>
+    <audio preload="metadata" controls>
+        <source src="media/guanacast-33.mp3" type="audio/mpeg">
+        <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="media/guanacast-33.mp3"></a>Clique aqui para baixar o arquivo MP3.</p>
+    </audio>
+
+    <h1>Reproduzindo vídeos</h1>
+    <p>Vamos aprender a inserir vídeos no HTML5</p>
+        <video width="600" poster="media/thumb1.jpg" controls autoplay>
+            <source src="media/meu-video.mp4" type="video/mp4">
+            <p>Infelizmente seu navegador não conseguiu carregar o vídeo :(</p>
+        </video>
+    
+    <h1>Reproduzindo vídeos através de link</h1>
+    <p>Vamos aprender a inserir um vídeo do Youtube</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/BBGEG21CGo0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</body>
+</html>
