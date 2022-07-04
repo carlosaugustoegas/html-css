@@ -1,0 +1,88 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+@import url(@import url('https://fonts.googleapis.com/css2?family=Acme&family=Titan+One&display=swap');
+
+
+:root {
+    --cor1: #43AD92;
+    --cor2: #CCFFF2;
+    --cor3: #AFFAE7;
+    --cor4: #AD6D58;
+    --cor5: #FAC1AF;
+
+    --fonte-padrao: Arial, Helvetica, Sans-serif;
+    --fonte-titulos: 'Titan One', 'cursive'; 
+    --fonte-textos: 'Acme', sans-serif;
+
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: var(--cor1);
+    font-family: var(--fonte-titulos);
+    color: white;
+    font-weight: lighter;
+    text-align: center;
+    text-shadow: 0px 2px 20px black;
+}
+
+span {
+    color: red;
+}
+
+main {
+    max-width: 1000px;
+    min-height: 500px;
+    text-align: center;
+    margin: auto;
+}
+
+body {
+    background-color: var(--cor2);
+    
+}
+
+
+div.perfil {
+    border: 5px solid var(--cor4);
+    width: 300px;
+    height: 400px;
+    border-radius: 5px;
+    
+    
+    display: inline-block;
+
+}
+
+div#dog1 {
+    background-image: url(imagens/dog1300x400.jpg);
+    
+}
+div#dog1:hover {
+    
+}
+
+
+div#dog2 {
+    background-image: url(imagens/dog2-300x400.jpg);
+}
+
+div#dog3 {
+    background-image: url(imagens/dog3-300x400.jpg);
+}
+
+div#dog4 {
+    background-image: url(imagens/dog4-300x400.jpg);
+}
+
+div#dog5 {
+    background-image: url(imagens/dog5-300x400.jpg);
+}
+
+div#dog6 {
+    background-image: url(imagens/dog6-300x400.jpeg);
+}
