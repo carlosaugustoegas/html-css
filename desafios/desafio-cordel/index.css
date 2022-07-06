@@ -67,16 +67,25 @@ header a:hover {
 }
 
 #verso2 {
-    background-color: rgb(110, 62, 62);
+    
     font-family: var(--fonte-padrao);
     background-image: url(imagens/background001.jpg);
-    background-attachment: fixed;
-    background-size: 100% 100%;
-    color: white;
-    font-size: 4.2vw;   
+    position: relative;
+    background-attachment: scroll;
+    background-size: 100% 100%;  
     padding: 100px 32px;
     margin-top: 80px;
    
+}
+
+#verso2  p {
+    background-color: rgba(0, 0, 0, 0.555);
+    background-size: 5vw;
+    color: white;
+    font-size: 3.5vw; 
+    width: 41vw;
+    line-height: 2em;
+     
 }
 
 #verso3 {
@@ -103,6 +112,15 @@ header a:hover {
     font-size: 3.5vw;
     padding: 100px 32px;
     margin-top: 80px;
+}
+
+#verso4 p {
+        background-color: rgba(0, 0, 0, 0.555);
+        background-size: 100px 100px;
+        color: white;
+        font-size: 3.5vw; 
+        width: 42vw;
+        line-height: 2em;
 }
 
 #verso5 {
