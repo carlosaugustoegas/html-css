@@ -56,13 +56,13 @@ main {
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-family: var(--fonte-padrao);
+    font-size: 3.5vw;
 }
 
 .normal {
     background-color: white;
-    font-family: var(--fonte-padrao);
     color: black;
-    font-size: 3.5vw;
     text-align: left;
     font-weight: lighter;
     margin-bottom: 100px;
@@ -72,7 +72,6 @@ main {
 
 .imagem {
     
-    font-family: var(--fonte-padrao);
     background-image: url(imagens/background001.jpg);
     position: relative;
     background-attachment: fixed;
@@ -84,8 +83,8 @@ main {
     background-color: rgba(0, 0, 0, 0.555);
     background-size: 5vw;
     color: white;
-    font-size: 3.5vw; 
-    width: 41vw;
+    display: inline-block;
+    padding: 5px;
     
      
 }
@@ -94,22 +93,19 @@ main {
 
 .imagem {
     background-color: white;
-    font-family: var(--fonte-padrao);
     background-image: url(imagens/background002.jpg);
     position: relative;
     background-attachment: fixed;
     background-size: 100% 100%;
     color: white;
-    font-size: 3.5vw;
     margin-top: 80px;
 }
 
-#verso4 p {
-        background-color: rgba(0, 0, 0, 0.555);
-        background-size: 100px 100px;
-        color: white;
-        font-size: 3.5vw; 
-        width: 42vw;
+.imagem > p {
+    background-color: rgba(0, 0, 0, 0.555);
+    background-size: 100px 100px;
+    color: white; 
+    
 }
 
 
