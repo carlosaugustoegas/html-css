@@ -8,6 +8,7 @@
 }
 
 html, body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: white;
     min-height: 100vh;
     
@@ -27,7 +28,7 @@ header {
 header > h1 {
     color: white;
     font-family: var(--fonte-titulo);
-    padding: 50px;
+    padding-top: 50px;
     font-size: 10vw;
     font-weight: lighter;
     text-align: center;
@@ -38,7 +39,8 @@ header > h1 {
 header p {
     color: white;
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 50px;
 }
 
 header a {
@@ -51,71 +53,85 @@ header a:hover {
     text-decoration: underline;
 }
 
-main {
+div {
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
-    padding-left: 30px;
     font-family: var(--fonte-padrao);
     font-size: 3.5vw;
+    
 }
 
-.normal {
+div.normal {
     background-color: white;
     color: black;
     text-align: left;
     font-weight: lighter;
-    margin-bottom: 100px;
+    padding-left: 30px;
     
     
 }
 
-.imagem {
+div.normal p {
     
-    background-image: url(imagens/background001.jpg);
-    position: relative;
+    padding-bottom: 2em;
+    
+}
+
+div.imagem {
+    padding-left: 30px;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.514);
     background-attachment: fixed;
-    background-size: 100% 100%;  
+}
+
+
+
+
+div.imagem#img01 {
+    background-color: rgb(128, 53, 53);
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+    background-size: cover;
+    
    
 }
 
-.imagem >  p {
+div.imagem >  p {
     background-color: rgba(0, 0, 0, 0.555);
     background-size: 5vw;
     color: white;
     display: inline-block;
     padding: 5px;
+    text-shadow: 1px 1px 0px black;
     
      
 }
 
 
 
-.imagem {
-    background-color: white;
+div.imagem#img02 {
+    background-color: black;
     background-image: url(imagens/background002.jpg);
-    position: relative;
-    background-attachment: fixed;
-    background-size: 100% 100%;
-    color: white;
-    margin-top: 80px;
-}
-
-.imagem > p {
-    background-color: rgba(0, 0, 0, 0.555);
-    background-size: 100px 100px;
-    color: white; 
+    background-position: right center;
+    background-size: cover;
+    
     
 }
+
+
+    
+
 
 
 
 footer {
     background-color: black;
     color: white;
+    font-size: 1em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     padding: 10px;
+    display: block;
 }
 
 footer a {
