@@ -4,13 +4,12 @@
 
 * {
     margin: 0px;
-    max-width: 1950px;
-    min-width: 320px;
+    
 }
 
 body {
     background-color: white;
-    
+    width: 100%;
     
 }
 
@@ -21,15 +20,17 @@ body {
 
 header {
     background-color: black;
-    min-width: 400px;
+    
+    
     padding: 50px;
 }
 header > h1 {
     color: white;
     font-family: var(--fonte-titulo);
-    font-size: 12em;
+    font-size: 10vw;
     font-weight: lighter;
     text-align: center;
+    
 }
 
 header p {
@@ -52,8 +53,7 @@ header a:hover {
     background-color: white;
     font-family: var(--fonte-padrao);
     color: black;
-    font-size: 4.2em;
-    min-width: 756px;
+    font-size: 3.5vw;
     padding: 20px 32px;
     margin-top: 80px;
     text-align: left;
@@ -71,9 +71,7 @@ header a:hover {
     background-attachment: fixed;
     background-size: 100% 100%;
     color: white;
-    font-size: 4.2em;
-    
-    
+    font-size: 4.2vw;   
     padding: 100px 32px;
     margin-top: 80px;
    
@@ -83,25 +81,24 @@ header a:hover {
     background-color: white;
     font-family: var(--fonte-padrao);
     color: black;
-    font-size: 4.2em;
-    min-width: 756px;
+    font-size: 3.5vw;
     padding: 20px 32px;
     margin-top: 80px;
     text-align: left;
     line-height: 2em;
     font-weight: lighter;
-    margin-bottom: 200px;
+    margin-bottom: 200px;;
 }
 
 #verso4 {
     background-color: white;
     font-family: var(--fonte-padrao);
     background-image: url(imagens/background002.jpg);
+    position: relative;
     background-attachment: fixed;
     background-size: 100% 100%;
     color: white;
-    font-size: 4.2em;
-    min-width: 756px;
+    font-size: 3.5vw;
     padding: 100px 32px;
     margin-top: 80px;
 }
@@ -110,8 +107,7 @@ header a:hover {
     background-color: white;
     font-family: var(--fonte-padrao);
     color: black;
-    font-size: 4.2em;
-    min-width: 756px;
+    font-size: 3.5vw;
     padding: 20px 32px;
     margin-top: 80px;
     text-align: left;
