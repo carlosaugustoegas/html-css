@@ -23,7 +23,7 @@ html {
 }
 
 body.yellow {
-    --bg-color: white;
+    --bg-color: rgb(255, 255, 255);
     --text-color: #B3AD00;
     --primary-color: #E6DE00;
     --primary-color-dark: #666300;
